@@ -1,8 +1,8 @@
 = parl
 
-(opts[:min]..opts[:max]).parl(500) do |n|
-  if is_open? ip, n
-    puts "#{ip}:#{n} is open"
+  (opts[:min]..opts[:max]).parl(500) do |n|
+    if is_open? ip, n
+      puts "#{ip}:#{n} is open"
+    end
   end
-end
 
