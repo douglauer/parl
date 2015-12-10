@@ -28,6 +28,7 @@ Gem::Specification.new do |s|
     "test/helper.rb",
     "test/test_parl.rb"
   ]
+  s.homepage = "http://github.com/douglauer/parl"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "2.0.14.1"
